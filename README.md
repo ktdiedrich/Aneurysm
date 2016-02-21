@@ -5,14 +5,14 @@ measure the connection between tortuosity and the development of intracranial an
 
 ## References
 If using this software or deriving works please reference one of the following: 
-1. Diedrich KT, Roberts JA, Schmidt RH, Parker DL. Comparing Performance of Centerline Algorithms for Quantitative Assessment of Brain Vascular Anatomy. Anat Rec (Hoboken). 2012; doi:10.1002/ar.22603
-2. Diedrich KT, Roberts JA, Schmidt RH, Albright LAC, Yetman AT, Parker DL. Medical record and imaging evaluation to identify arterial tortuosity phenotype in populations at risk for intracranial aneurysms. AMIA Annu Symp Proc. 2011;2011: 295–304. 
-3. Diedrich KT, Roberts JA, Schmidt RH, Kang C-K, Cho Z-H, Parker DL. Validation of an arterial tortuosity measure with application to hypertension collection of clinical hypertensive patients. BMC Bioinformatics. 2011;12 Suppl 10: S15. doi:10.1186/1471-2105-12-S10-S15
+* Diedrich KT, Roberts JA, Schmidt RH, Parker DL. Comparing Performance of Centerline Algorithms for Quantitative Assessment of Brain Vascular Anatomy. Anat Rec (Hoboken). 2012; doi:10.1002/ar.22603
+  * http://www.ncbi.nlm.nih.gov/pubmed/23060363
+*  Diedrich KT, Roberts JA, Schmidt RH, Albright LAC, Yetman AT, Parker DL. Medical record and imaging evaluation to identify arterial tortuosity phenotype in populations at risk for intracranial aneurysms. AMIA Annu Symp Proc. 2011;2011: 295–304. 
+  * http://www.ncbi.nlm.nih.gov/pubmed/22195081
+* Diedrich KT, Roberts JA, Schmidt RH, Kang C-K, Cho Z-H, Parker DL. Validation of an arterial tortuosity measure with application to hypertension collection of clinical hypertensive patients. BMC Bioinformatics. 2011;12 Suppl 10: S15. doi:10.1186/1471-2105-12-S10-S15
+  * http://www.ncbi.nlm.nih.gov/pubmed/22166145 
 
-## Web links:
-* http://www.ncbi.nlm.nih.gov/pubmed/23060363
-* http://www.ncbi.nlm.nih.gov/pubmed/22195081
-* http://www.ncbi.nlm.nih.gov/pubmed/22166145 
+
 
 ## ImageJ plugin
 Place the Aneurysm source in ImageJ/plugins/Aneurym
