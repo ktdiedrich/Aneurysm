@@ -1,0 +1,65 @@
+/*=========================================================================
+ *
+ *  Copyright (c) Karl T. Diedrich 
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0.txt
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ *=========================================================================*/
+
+package ktdiedrich.db.aneurysm;
+
+/** Data holder 
+ * @author ktdiedrich@gmail.com 
+ * */
+public class SubjectArteryValue 
+{
+	private int _subjectId, _arteryId, _value;
+	private String _arteryName;
+	private String _side;
+	public SubjectArteryValue(int subjectId, int arteryId, int value)
+	{
+		_subjectId = subjectId;
+		_arteryId = arteryId;
+		_value = value;
+	}
+	public int getSubjectId() {
+		return _subjectId;
+	}
+	public void setSubjectId(int subjectId) {
+		_subjectId = subjectId;
+	}
+	public int getArteryId() {
+		return _arteryId;
+	}
+	public void setArteryId(int arteryId) {
+		_arteryId = arteryId;
+	}
+	public int getValue() {
+		return _value;
+	}
+	public void setValue(int value) {
+		_value = value;
+	}
+	public String getArteryName() {
+		return _arteryName;
+	}
+	public void setArteryName(String arteryName) {
+		_arteryName = arteryName;
+	}
+	public String getSide() {
+		return _side;
+	}
+	public void setSide(String side) {
+		_side = side;
+	}
+}

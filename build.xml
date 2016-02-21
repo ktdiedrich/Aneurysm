@@ -1,0 +1,7 @@
+<project default="compile">
+	<property file="build.properties"/>
+    <target name="compile">
+        <mkdir dir="${build.dir}"/>
+        <javac srcdir="." destdir="${build.dir}"/>
+    </target>
+</project>
