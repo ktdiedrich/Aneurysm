@@ -10,9 +10,9 @@ If using this software or deriving works please reference one of the following:
 3. Diedrich KT, Roberts JA, Schmidt RH, Kang C-K, Cho Z-H, Parker DL. Validation of an arterial tortuosity measure with application to hypertension collection of clinical hypertensive patients. BMC Bioinformatics. 2011;12 Suppl 10: S15. doi:10.1186/1471-2105-12-S10-S15
 
 ## Web links:
-http://www.ncbi.nlm.nih.gov/pubmed/23060363
-http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4043906/
-http://www.ncbi.nlm.nih.gov/pubmed/22166145 
+* http://www.ncbi.nlm.nih.gov/pubmed/23060363
+* http://www.ncbi.nlm.nih.gov/pubmed/22195081
+* http://www.ncbi.nlm.nih.gov/pubmed/22166145 
 
 ## ImageJ plugin
 Place the Aneurysm source in ImageJ/plugins/Aneurym
