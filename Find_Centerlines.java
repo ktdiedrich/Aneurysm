@@ -175,7 +175,7 @@ public class Find_Centerlines implements PlugInFilter {
         
         _centerlines.setCenterlineAlgorithm(centAlgId);
         
-        _centerlines.recordPanel();
+        // _centerlines.recordPanel();
         _centerlines.setMipAxis(axisType);
         _centerlines.setDfeThreshold( (float)gd.getNextNumber() );
         _centerlines.setMinLineLength( (int)gd.getNextNumber() );

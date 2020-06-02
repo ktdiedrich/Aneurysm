@@ -1,6 +1,6 @@
 # Aneurysm
 Aneurysm is a collection of Java plugins for ImageJ http://imagej.nih.gov/ij/ extracting arteries from
-MRI images, finding centerlines and measuring tortuosity or twsitedness. The software was developed to 
+MRI images, finding centerlines and measuring tortuosity or twistedness. The software was developed to 
 measure the connection between tortuosity and the development of intracranial aneurysms at the University of Utah. 
 
 ## References
@@ -44,6 +44,11 @@ ij.jar
 
 ij.jar is from the ImageJ installation 
 
+### example CLASSPATH
+
+export CLASSPATH=/opt/ImageJ/ij.jar:/opt/jars/commons-cli-1.2.jar:/opt/jars/mysql-connector-java-5.1.18-bin.jar
+
+
 ## Database 
 An optional database stores stores measurements in MySQL or MariaDB 5.5 https://mariadb.org/ 
 -- initializing users
@@ -60,8 +65,14 @@ An optional database stores stores measurements in MySQL or MariaDB 5.5 https://
 -- sql/delete_data.sql will clean the database for a fresh start 
 
 ## Compile 
+ 
+ ### Java version for compiling 
+ javac -version
+ 1.8
+
 Compile the source code with Ant http://ant.apache.org/bindownload.cgi
-The default ant task will build the sources into the directory in build.properties ../Aneurysm-build/Aneurysm 
+The default ant task will build the sources into the directory in build.properties /opt/ImageJ/Aneurysm
+
 $ ant 
 Adjust build.properties to build into a different directory 
 
